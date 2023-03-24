@@ -5,8 +5,8 @@
 // alert(a);
 
 
-let iphoneYear = 2007;
-alert(iphoneYear);
+let iphoneFirstReleaseYear = 2007;
+alert(iphoneFirstReleaseYear);
 
 
 let javaScriptCreator = 'Брендан Эйх';
@@ -36,8 +36,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
+num++;
+num--;
 alert(num);
 
 
@@ -61,8 +61,8 @@ delete user['city of residence'];
 
 
 let info = prompt('Какую информацию хотите узнать о пользователе?');
-alert(user.name)
+alert(user.name);
 
 
-let UserName = prompt('Ваше имя')
-alert(`Привет, ${UserName}!`)
+let UserName = prompt('Ваше имя');
+alert(`Привет, ${UserName}!`);
