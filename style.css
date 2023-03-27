@@ -60,7 +60,7 @@ body {
   transition-duration: 0.3s;
 }
 .header__button:hover {
-  background: rgba(156, 3, 49, 0.4431372549);
+  background: #eb443f;
   cursor: pointer;
 }
 
@@ -77,6 +77,13 @@ body {
 }
 .section__game {
   position: relative;
+  transition: all 0.3s;
+  border-radius: 16px;
+}
+.section__game:hover {
+  cursor: pointer;
+  box-shadow: 0 0 16px #44d2ff;
+  transform: scale(1.05);
 }
 .section__text {
   font-weight: 600;
@@ -148,7 +155,7 @@ body {
   transition-duration: 0.3s;
 }
 .firstMain__button:hover {
-  background: rgba(156, 3, 49, 0.4431372549);
+  background: #eb443f;
   cursor: pointer;
 }
 
@@ -204,7 +211,7 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 475px) {
+@media (max-width: 375px) {
   .center {
     padding-left: calc(50% - 343px);
     padding-right: calc(50% - 343px);
