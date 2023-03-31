@@ -1,8 +1,8 @@
-let i = 0;
-while (i < 2) {
-	console.log('Привет');
-	i++;
-}
+// let i = 0;
+// while (i < 2) {
+// 	console.log('Привет');
+// 	i++;
+// }
 
 // let i = 1;
 // while (i < 6) {
@@ -25,16 +25,17 @@ while (i < 2) {
 // 	console.log(`${name} — зарплата ${obj[name]} долларов`);
 // }
 
-// for (let n = 1000; n >=50; ) {
-// 	n /= 2
-// 	if (n < 50) {
-// 		console.log(n);
-// 	}
-// }
-
+for (let n = 1000, num = 0; n >= 50; ) {
+	n /= 2;
+	num++;
+	if (n < 50) {
+		console.log(`Число ${n}`);
+		console.log(`Итераций ${num}`);
+	}
+}
 
 // for (let friday = 3, week = 0; friday < 32; week++) {
-	
+
 // 	if (week <= 5) {
 // 		console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
 // 	}
