@@ -74,7 +74,7 @@ body {
 	justify-content: center;
 	padding-top: 128px;
 	padding-bottom: 128px;
-
+	flex-wrap: wrap;
 	&__game {
 		position: relative;
 		transition: all 0.3s;
@@ -123,6 +123,7 @@ body {
 		justify-content: center;
 		flex-direction: column;
 		gap: 32px;
+		flex-wrap: wrap;
 	}
 	&__title {
 		font-weight: 700;
@@ -172,7 +173,6 @@ body {
 	padding-top: 239px;
 	padding-bottom: 239px;
 	&__text {
-		width: 588px;
 		font-weight: 300;
 		font-size: 18px;
 		line-height: 32px;
@@ -214,4 +214,4 @@ body {
 	}
 }
 
-@import '_mobile';
+@import 'mobile';

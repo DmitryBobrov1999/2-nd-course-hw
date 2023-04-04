@@ -27,7 +27,7 @@
 			<button class="header__button">Поехали!</button>
 		</header>
 		<section class="section center">
-			<div onclick='seasonCalc();' class="section__game section__game_1">
+			<div class="section__game section__game_1">
 				<img class="section__sectionImg" src="/img/game1.png" alt="game1" />
 				<h6 class="section__text section__text_1">Игра 1</h6>
 			</div>
@@ -45,13 +45,14 @@
 			<div class="firstMain__block">
 				<h1 class="firstMain__title">Времена года</h1>
 				<p class="firstMain__text">
-					Вам предстоит пройти несколько увлекательных игр. <br />
-					Если готов нажимай <span class="firstMain__whiteText">поехали</span> и
-					<span class="firstMain__whiteText">приступай</span>
+					Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете
+					к какому времени года он относится
 				</p>
-				<button class="firstMain__button">Поехали!</button>
+				<button onclick="console.log(seasonCalc());" class="firstMain__button">
+					Поехали!
+				</button>
+				<img class="firstMain__img" src="/img/firstMain.png" alt="firstMain" />
 			</div>
-			<img class="firstMain__img" src="/img/firstMain.png" alt="firstMain" />
 		</section>
 
 		<section class="secondMain center">
