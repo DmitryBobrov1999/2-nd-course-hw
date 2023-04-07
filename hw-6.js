@@ -61,7 +61,12 @@
 // 		alert('число есть');
 // 	} 		
 // }
-
+//или с includes:
+// if(numbs.includes(counter)) {
+// 	alert('число есть');
+// } else {
+// 	alert('Числа нет')
+// }
 
 
 
@@ -114,8 +119,8 @@
 
 // let allString = ['Hello', 'A long sentence', '', 'Hi friend']; // Задание 12
 
-// let getLength = allString.map((key) => 
-// key.length
+// let getLength = allString.map((string) => 
+// string.length
 // )
 
 // console.log(getLength);
