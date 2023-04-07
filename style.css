@@ -74,6 +74,7 @@ body {
   justify-content: center;
   padding-top: 128px;
   padding-bottom: 128px;
+  flex-wrap: wrap;
 }
 .section__game {
   position: relative;
@@ -121,6 +122,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 32px;
+  flex-wrap: wrap;
 }
 .firstMain__title {
   font-weight: 700;
@@ -170,7 +172,6 @@ body {
   padding-bottom: 239px;
 }
 .secondMain__text {
-  width: 588px;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
@@ -211,7 +212,7 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 343px);
     padding-right: calc(50% - 343px);
@@ -240,6 +241,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .section__game {
     width: 343px;
@@ -278,6 +280,9 @@ body {
     width: 344px;
     height: 236px;
   }
+  .firstMain__button {
+    margin-bottom: 32px;
+  }
   .secondMain {
     display: flex;
     flex-direction: column;
@@ -287,7 +292,6 @@ body {
     padding-bottom: 90px;
   }
   .secondMain__text {
-    width: 343px;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -295,6 +299,7 @@ body {
   .secondMain__img {
     width: 344px;
     height: 231px;
+    order: 1;
   }
   .thirdMain {
     padding-top: 51px;
