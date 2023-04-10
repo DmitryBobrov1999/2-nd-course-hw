@@ -48,9 +48,7 @@
 					Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете
 					к какому времени года он относится
 				</p>
-				<button onclick="console.log(seasonCalc());" class="firstMain__button">
-					Поехали!
-				</button>
+				<button class="firstMain__button">Поехали!</button>
 			</div>
 			<img class="firstMain__img" src="/img/firstMain.png" alt="firstMain" />
 		</section>
@@ -63,7 +61,9 @@
 					При нажатии на кнопку играть, вы увидите несколько слов, которые вам
 					необходимо запомнить.
 				</p>
-				<button class="firstMain__button">Поехали!</button>
+				<button onclick="alert(toPlay())" class="firstMain__button">
+					Поехали!
+				</button>
 			</div>
 		</section>
 
@@ -83,6 +83,6 @@
 			<p class="footer__text">Все права защищены</p>
 		</footer>
 
-		<script src="hw-6.js"></script>
+		<script src="hw-7.js"></script>
 	</body>
 </html>
