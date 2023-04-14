@@ -58,13 +58,32 @@
 
 
 
+// let timerId = setInterval(() => { // Задание 4
+//  console.log(new Date());
+// }, 3000);
 
-let timerId = setInterval(() => {
-	console.log(new Date());
-let timerA = setTimeout(() => {
-		clearInterval(timerId);
-	}, 30000);
- 
-}, 3000);
+// setTimeout(() => {
+// 	clearInterval(timerId);
+// 	console.log('30 секунд прошло');
+// }, 30000);
 
 
+
+
+// function calling() { //Задание 5
+// 	console.log('Звоню!');
+// }
+
+// function beeps(callback) {
+// 	setTimeout(() => {
+//  console.log('Идут гудки...');
+// callback()
+// 	}, 1000);
+// }
+
+// function talk() {
+// 	console.log('Разговор');
+// }
+
+// calling();
+// beeps(talk);
